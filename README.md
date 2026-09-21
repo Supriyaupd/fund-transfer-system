@@ -58,20 +58,22 @@ OTP means waiting for a message every time you transfer. A PIN is instant and st
 
 ## Project Structure
 
+```
 fund-transfer-system/
 ├── backend/
-│ ├── config/ # Database connection
-│ ├── middleware/ # JWT auth middleware
-│ ├── models/ # User and Transaction schemas
-│ ├── routes/ # Auth and transaction routes
-│ └── server.js
+│   ├── config/        # Database connection
+│   ├── middleware/    # JWT auth middleware
+│   ├── models/        # User and Transaction schemas
+│   ├── routes/        # Auth and transaction routes
+│   └── server.js
 └── frontend/
-└── app/
-├── dashboard/ # Main wallet dashboard
-├── send/ # Send money page
-├── topup/ # Top up page
-├── pin/ # Set PIN page
-└── lib/ # Axios API config
+    └── app/
+        ├── dashboard/ # Main wallet dashboard
+        ├── send/      # Send money page
+        ├── topup/     # Top up page
+        ├── pin/       # Set PIN page
+        └── lib/       # Axios API config
+```
 
 
 ## How to Run
