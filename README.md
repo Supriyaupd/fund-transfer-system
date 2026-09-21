@@ -87,11 +87,13 @@ npm install
 
 Create `.env`:
 
+```
 PORT=5000
 MONGO_URI=your_mongodb_atlas_connection_string
 JWT_SECRET=your_secret_key
 EMAIL_USER=your_email
 EMAIL_PASS=your_email_password
+```
 
 
 ```bash
